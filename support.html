@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الدعم والمساعدة - المستودع</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        h1 {
+            color: #d32f2f;
+            border-bottom: 4px solid #d32f2f;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #333;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-right: 4px solid #d32f2f;
+            padding-right: 15px;
+        }
+        p {
+            color: #555;
+            text-align: right;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .intro-card {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            border-right: 4px solid #d32f2f;
+        }
+        .intro-card h2 {
+            margin-top: 0;
+            border: none;
+            padding: 0;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+        }
+        .contact-card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border-right: 4px solid;
+            cursor: pointer;
+            text-decoration: none;
+            display: block;
+            color: inherit;
+        }
+        .contact-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+        .contact-card.whatsapp {
+            border-color: #25D366;
+        }
+        .contact-card.instagram {
+            border-color: #E1306C;
+        }
+        .contact-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .contact-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            text-align: right;
+        }
+        .contact-subtitle {
+            color: #666;
+            font-size: 1.1em;
+            text-align: right;
+        }
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        .whatsapp .contact-icon {
+            background-color: #25D366;
+        }
+        .instagram .contact-icon {
+            background-color: #E1306C;
+        }
+        .footer {
+            text-align: center;
+            color: #999;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+        }
+        .links {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .links a {
+            color: #d32f2f;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+            .contact-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>الدعم والمساعدة</h1>
+        
+        <div class="intro-card">
+            <h2>عن الشركة</h2>
+            <p>
+                نقدّم لكم منصة تسوّق مميزة لتجربة شراء وبيع سهلة وآمنة. فريقنا متواجد لدعمكم والإجابة عن استفساراتكم.
+            </p>
+            <p style="margin-top: 15px; font-weight: bold;">
+                للتواصل معنا:
+            </p>
+        </div>
+
+        <a href="https://wa.me/9647800395194" target="_blank" class="contact-card whatsapp">
+            <div class="contact-header">
+                <div class="contact-icon">💬</div>
+                <div style="flex: 1; margin-right: 15px;">
+                    <div class="contact-title">الدعم عبر واتساب</div>
+                    <div class="contact-subtitle">9647800395194+</div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.instagram.com/almstwdaaa?igsh=MTVhZXdibTQ1OHZybg==" target="_blank" class="contact-card instagram">
+            <div class="contact-header">
+                <div class="contact-icon">📷</div>
+                <div style="flex: 1; margin-right: 15px;">
+                    <div class="contact-title">انستغرام</div>
+                    <div class="contact-subtitle">@almstwdaaa</div>
+                </div>
+            </div>
+        </a>
+
+        <div class="links">
+            <a href="privacy-policy.html">سياسة الخصوصية</a>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 المستودع. جميع الحقوق محفوظة.</p>
+        </div>
+    </div>
+</body>
+</html>
+
